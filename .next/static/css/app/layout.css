@@ -1,3 +1,51 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/AuthLinks/authLinks.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.authLinks_link__Hc4Wh {
+    cursor: pointer;
+  }
+
+  .authLinks_burger__y1U6Z {
+    width: 20px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    display: none;
+  }
+
+  .authLinks_line__yB26Y {
+    width: 100%;
+    height: 2px;
+    background-color: var(--textColor);
+  }
+
+  .authLinks_responsiveMenu__E_g_J{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: var(--bg);
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 36px;
+    z-index: 999;
+  }
+
+  @media screen and (max-width: 640px) {
+    .authLinks_burger__y1U6Z {
+      display: flex;
+    }
+
+    .authLinks_link__Hc4Wh{
+      display: none;
+    }
+  }
+
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/ThemeToggle/themeToggle.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************/
@@ -119,12 +167,38 @@
     font-size: 20px;
     flex: 1 1;
 }
-/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/AuthLinks/authLinks.module.css ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************/
-.authLinks_link__Hc4Wh{
-    cursor:pointer;
-}
+
+@media screen and (max-width: 1280px) {
+    .navBar_logo__HOprX {
+      font-size: 32px;
+    }
+    .navBar_links__6UeFp {
+      font-size: 18px;
+      gap: 15px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .navBar_social__LeV1X {
+      display: none;
+    }
+    .navBar_logo__HOprX {
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .navBar_logo__HOprX {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .navBar_links__6UeFp{
+      justify-content: flex-end;
+    }
+    .navBar_link__9No45 {
+      display: none;
+    }
+  }
+
 /*!***************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/globals.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************/
